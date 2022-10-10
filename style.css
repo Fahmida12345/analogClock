@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(254, 254, 234);
+
+}
+.watch{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: rgb(133, 215, 235);
+    border: 12px solid rgb(221, 150, 168);
+    position: relative;
+    /* border-image: linear-gradient(45deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82) 1; */
+}
+
+#Brand{
+   font-size: 20px;
+   font-weight: bold;
+   position: absolute;
+   top: 20%;
+   left: 50%;
+   transform: translateX(-50%);
+
+
+}
+
+h3{
+   position: absolute;
+   top: 25%;
+   left: 50%;
+   transform: translateX(-50%);
+
+}
+h4{
+   position: absolute;
+   top: 80%;
+   left: 50%;
+   transform: translateX(-50%);
+
+}
+.watch p{
+   position: absolute;
+   top: 85%;
+   left: 50%;
+   transform: translateX(-50%);
+
+}
+
+.watch::after{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50% ,-50%) ;
+    background-color: black;
+    z-index: 11;
+
+}
+.watch .number{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    
+    
+}
+ .watch .number.number1 {
+    transform: rotate(30deg);
+
+ }
+ .watch .number.number2 {
+    transform: rotate(60deg);
+
+ }
+ .watch .number.number3 {
+    transform: rotate(90deg);
+
+ }
+ .watch .number.number4 {
+    transform: rotate(120deg);
+
+ }
+ .watch .number.number5 {
+    transform: rotate(150deg);
+
+ }
+ .watch .number.number6 {
+    transform: rotate(180deg);
+
+ }
+ .watch .number.number7 {
+    transform: rotate(210deg);
+
+ }
+ .watch .number.number8 {
+    transform: rotate(240deg);
+
+ }
+ .watch .number.number9 {
+    transform: rotate(270deg);
+
+ }
+ .watch .number.number10 {
+    transform: rotate(300deg);
+
+ }
+ .watch .number.number11 {
+    transform: rotate(330deg);
+
+ }
+ .watch .number.number12 {
+    transform: rotate(360deg);
+
+ }
+
+.watch .hand{
+
+    position: absolute;
+    height: 43%;
+    width: 10px;
+    left: 50%;
+    bottom: 50%;
+    transform-origin: bottom;
+    z-index: 10;
+    transform: translateX(-50%);
+    /* background-color: brown; */
+
+}
+.watch .hand.hour{
+    background-color: blue;
+    height: 41%;
+
+
+}
+.watch .hand.minute{
+    background-color:rgb(228, 94, 94);
+    height: 42%;
+
+}
+.watch .hand.second{
+    background-color: black;
+    height: 44%;
+    width: 4px;
+}
+
+
