@@ -126,9 +126,57 @@ h4{
  }
  .watch .number.number12 {
     transform: rotate(360deg);
-
  }
 
+ 
+ .watch .number.number1 > span{
+   transform: rotate(330deg);
+   display: block;
+ }
+ .watch .number.number2 > span{
+   transform: rotate(300deg);
+   display: block;
+ }
+ .watch .number.number3 > span{
+   transform: rotate(270deg);
+   display: block;
+ }
+ .watch .number.number4 > span{
+   transform: rotate(240deg);
+   display: block;
+ }
+ .watch .number.number5> span{
+   transform: rotate(210deg);
+   display: block;
+ }
+ .watch .number.number6 > span{
+   transform: rotate(180deg);
+   display: block;
+ }
+ .watch .number.number7 > span{
+   transform: rotate(150deg);
+   display: block;
+ }
+ .watch .number.number8 > span{
+   transform: rotate(120deg);
+   display: block;
+ }
+ .watch .number.number9 > span{
+   transform: rotate(90deg);
+   display: block;
+ }
+ .watch .number.number10 > span{
+   transform: rotate(60deg);
+   display: block;
+ }
+ .watch .number.number11 > span{
+   transform: rotate(30deg);
+   display: block;
+ }
+ .watch .number.number12 > span{
+   transform: rotate(0deg);
+   display: block;
+ }
 .watch .hand{
 
     position: absolute;
